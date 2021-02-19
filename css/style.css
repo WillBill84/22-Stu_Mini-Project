@@ -65,11 +65,13 @@ figure {
 figure h3 {
   position: absolute;
   bottom: 600px;
+  left:0px;
 }
 
 figcaption {
   position: absolute;
   bottom: 570px;
+  left:0px;
 }
 
 img {
