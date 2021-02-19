@@ -74,12 +74,22 @@ figcaption {
    left: 90px;
    width: 380px;
 }
+
 .portfolio_button {
   position: absolute;
-  top: 250px;
-  left: 90px;
   background: deepskyblue;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  top: 410px;
+  left: 130px;
 }
+
+.portfolio_button:hover {
+  
+}
+
 img {
   display: block;
   margin: 0px auto;
