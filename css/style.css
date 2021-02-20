@@ -49,8 +49,14 @@ header {
   z-index:99;
 }
 
+nav {
+  font-size: 16px;
+}
+
 footer {
-  position: absolute;
+  position: relative;
+  float: left;
+  width: 100%;
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #4F4846;
@@ -113,19 +119,35 @@ img {
 }
 
 section {
+  width: 100%;
+  position: relative;
+  float: left;
   margin-bottom: 0;
-  padding: 20px 10px 40px 10px;
+  padding: 60px 0px 60px 0px;
   border-top: 1px solid #ccc;
+}
+
+#skills {
+  
+}
+
+#contact {
   background-color: #eee;
 }
 
 form {
   /* Center the form on the page */
   margin: 0 auto;
-  width: 500px;
-  padding: 10px;
+  text-align: center;
+  width: 300px;
+  padding: 10px 0px;
   border: none;
   border-radius: 20px;
+}
+
+form li {
+  padding: 0px;
+  float: left;
 }
 
 label {
@@ -147,16 +169,28 @@ textarea {
   vertical-align: top;
   height: 60px;
 }
+
+#message {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  height: 120px;
+  resize: none;
+}
   
 button {
   height: 40px;
   width: 120px;
+  margin: 10px 0;
   background-color: deepskyblue;
   color: #FDF8F5;
   border: none;
   position: relative;
-  left: -64px;
+  float: left;
   border-radius: 3px;
+}
+
+button:hover {
+  background: #008dbd;
+  cursor:pointer;
 }
 
 /* Class Selectors */
