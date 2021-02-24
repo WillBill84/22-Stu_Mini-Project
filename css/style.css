@@ -232,3 +232,26 @@ button:hover {
   height: 120px;
   resize: none;
 }
+
+/* Small devices (phones, 576px and down) */ 
+@media (max-width: 576px) {
+  #logo {
+    top: 0;
+    left: 0;
+  }
+
+  figcaption {
+    top: 80px;
+    left: 0px;
+  }
+
+  .portfolio_button {
+    top: 230px;
+    left: 40px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+}
