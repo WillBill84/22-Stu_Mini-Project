@@ -170,7 +170,9 @@ button:hover {
 }
 
 .backgroundimage {
-  width:100%; 
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .skillbox {
@@ -239,7 +241,7 @@ button:hover {
   }
 
   figcaption {
-    top: 80px;
+    top: 100px;
     left: 0px;
   }
 
@@ -249,7 +251,7 @@ button:hover {
   }
 
   .text-left {
-    margin: 30px 40px;
+    margin: 30px 4%;
 
   }
   section {
