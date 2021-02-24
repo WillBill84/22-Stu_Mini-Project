@@ -80,9 +80,9 @@ figure h3 {
 
 figcaption {
    position: absolute;
-   top: 270px;
+   top: 20%;
    left: 90px;
-   width: 380px;
+   width: 300px;
 }
 
 img {
@@ -154,14 +154,13 @@ button:hover {
 /* Class Selectors */
 
 .portfolio_button {
-  position: absolute;
+  display: block;
   background: deepskyblue;
   border-radius: 3px;
+  margin-top: 15px;
   padding: 10px 0px;
   text-align: center;
   font-size: 17px;
-  top: 410px;
-  left: 130px;
   width: 120px;
   height: 20px;
 }
@@ -195,9 +194,9 @@ button:hover {
 }
 
 .text-left {
-    text-align: left;
-    margin: 80px 40px;
-    color: #fff;
+  margin: 80px 40px;
+  text-align: left;
+  color: #fff;
 }
 
 .text-right {
@@ -208,10 +207,9 @@ button:hover {
 /* ID selectors */
 
 #logo {
-  position: absolute;
-  top: 200px;
-  left: 80px;
-  font-size: 300%;
+  width: 100%;
+  margin: 0;
+  font-size: 270%;
 }
 
 #about-text {
@@ -250,6 +248,10 @@ button:hover {
     left: 40px;
   }
 
+  .text-left {
+    margin: 30px 40px;
+
+  }
   section {
     flex-direction: column;
   }
