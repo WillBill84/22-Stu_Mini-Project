@@ -54,7 +54,10 @@ nav {
 }
 
 main {
-  padding: 60px 0;
+  width: 100%;
+  padding: 0px 0 0 0;
+  position: relative;
+  float: left;
 }
 
 footer {
@@ -254,8 +257,13 @@ button:hover {
     margin: 30px 4%;
 
   }
+
   section {
     flex-direction: column;
+  }
+
+  .skillbox:nth-child(2) {
+    margin: 5% 0;
   }
 
 }
